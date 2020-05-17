@@ -22,3 +22,14 @@ d = 'My name is {name} {family}.Watashi ha {family} {name} desu'.format(name='Ju
 print(d)
 # ? 実行結果 My name is Jun Sakai.Watashi ha Sakai Jun desu
 # {}の中に変数を使うことができる。実行結果のように変数が代入される。
+
+# ! python3.6以降のformatの利用方法
+
+
+a = 'kind'
+print(f'Mike is {a}')
+# ? 実行結果 Mike is kind
+
+b, c, d = 'kind', 'busy', 'cheerful'
+print(f'Mike is {b} {c} {d}')
+# ? 実行結果 Mike is kind busy cheerful
